@@ -10,7 +10,7 @@
           01 WS-STATUS PIC X(2).
 
        PROCEDURE DIVISION.
-              DISPLAY "Enter"
+              DISPLAY "Enter record:"
               ACCEPT WS-RECORD
               MOVE WS-RECORD(1:10) TO WS-ACCOUNT
               MOVE WS-RECORD(11:6) TO WS-AMOUNT
